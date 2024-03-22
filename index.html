@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    
+    <style>
+        .navbar {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            outline: none;
+        }
+        
+        body {
+            font-family: "Poppins", sans-serif;
+            scroll-behavior: smooth; 
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Thelys
+            <span>Turatto</span>
+        </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a> <!-- Corrigido o ID aqui -->
+            <a href="#contact">Contato</a> <!-- Corrigido o ID aqui -->
+        </nav>
+        
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-img">
+            <img src="image.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Thelys<span>Turatto</span></h1>
+            <h3 class="text-animation">
+                 <span></span>
+            </h3>
+
+            <p>Escrever aqui eu sou</p>
+
+            <div class="social-icon">
+                <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+                <a href="https://www.instagram.com/"><box-icon type='logo' name='instagram-alt'></box-icon></a>
+               
+            </div>
+
+            <a href="#" class="btn">Projetos</a>
+
+
+        
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">Sobre <span>Mim</span></h2>
+            <h3 class="text-animation">
+                <span></span>
+            </h3>
+            <p>Sou um estudante de Análise e Desenvolvimento de Sistemas</p>
+            <a href="#" class="btn">Ler Mais</a>
+        </div>
+        <div class="about-img">
+            <img src="image.png" alt="">
+        </div>
+
+
+    </section>
+
+    <section class="serviços" id="services">
+        <h2 class="heading">Serviços</h2>
+    
+        <div class="serviços-container">
+            <div class="serviços-box">
+                <div class="serviços-info">
+                    <h4>Desenvolvedor de Software</h4>
+                    <p>Escrever alguma coisa aqui</p>
+                </div>
+            </div>
+    
+            <div class="serviços-box">
+                <div class="serviços-info">
+                    <h4>Desenvolvedor Front-End</h4>
+                    <p>Escrever alguma coisa aqui</p>
+                </div>
+            </div>
+    
+            <div class="serviços-box">
+                <div class="serviços-info">
+                    <h4>UI / UX Designer</h4>
+                    <p>Escrever alguma coisa aqui</p>
+                </div>
+            </div>
+    
+            <div class="serviços-box">
+                <div class="serviços-info">
+                    <h4>Desenvolvedor Web</h4>
+                    <p>Escrever alguma coisa aqui</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contato" id="contact">
+
+        <h2 class="heading">Contato <span></span></h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo">
+                <input type="Email" placeholder="Email"></input>
+            </div>
+            <div class="input-box">
+                <input type="Número" 
+                placeholder="Número de telefone">
+                <input type="text" placeholder="Assunto">
+            </div>
+
+            <textarea name="" id="" cols="30"
+            rows="10" placeholder="Sua Mensagem"></textarea>
+            <input type="Enviar" value="Enviar Mensagem" class="btn">
+
+        </form>
+
+        <script src="script2.js"></script>
+
+     </section>
+
+     <footer class="footer">
+
+        <div class="social">
+            <div class="social-icon">
+                <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
+            <a href="https://www.instagram.com/"><box-icon type='logo' name='instagram-alt'></box-icon></a>
+            </div>
+        </div>
+    
+        <ul class="Lista">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="#">Serviços</a>
+            </li>
+        
+            <li>
+                <a href="#">Sobre Mim</a>
+            </li>
+        
+            <li>
+                <a href="#">Contato</a>
+            </li>
+            
+            <li>
+                <a href="#">Política de Privacidade</a>
+            </li>
+        </ul>
+        
+        <p class="copyright">
+            © Thelys Turatto | All Rights Reserved
+        </p>
+    
+    </footer>
+    
+   
+
+
+
+    
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
